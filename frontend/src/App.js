@@ -6,7 +6,7 @@ import Add from './components/Add'
 import Edit from './components/Edit'
 
 const App = () => {
-  const [foods, setfoods] = useState([])
+  const [foods, setFoods] = useState([])
 
   const getFoods = () => {
     axios.get('http://localhost:3000/foods')
